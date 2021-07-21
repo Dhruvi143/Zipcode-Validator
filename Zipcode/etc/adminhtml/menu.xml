@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+*
+* menu.xml
+*
+* Menu bar for Vendor in menu title and sub menu for Menu
+*
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Codilar_Zipcode::zipcode" title="zipcode" translate="title" module="Codilar_Zipcode"
+             sortOrder="75" resource="Codilar_Zipcode::zipcode"/>
+        <add id="Codilar_Zipcode::zipcode_listing" title="View Regions" translate="title"
+             module="Codilar_Zipcode" sortOrder="10" parent="Codilar_Zipcode::zipcode"
+             action="zipcode/details/index" resource="Codilar_Zipcode::zipcode"/>
+    </menu>
+</config>

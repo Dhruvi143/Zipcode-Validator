@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+* routes.xml
+*
+* route for backend
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="zipcode" frontName="zipcode">
+            <module name="Codilar_Zipcode" />
+        </route>
+    </router>
+</config>
